@@ -1,0 +1,38 @@
+/*  .conteudo {
+  border: 1px solid #ccc;
+   padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-bottom: 15px; 
+ padding: 20px 15px 20px 15px; 
+ padding: 20px 5px; 
+  width: 200px;
+
+  display: flex; 
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px; 
+
+  margin: 10px;
+  justify-content: center;
+}
+
+.conteudo2 {
+  border: 2px solid #eee;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+  */
+
+#new {
+  background-color: blue;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+h2 {
+  margin: 0;
+}

@@ -1,0 +1,6 @@
+Modelo de caixa: 
+
+tags são a formação de uma caixa
+border é a borda da caixa
+Padding é o espaçamento interno de caixa
+Margin é o espaçamento externo da caixa
