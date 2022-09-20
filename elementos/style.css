@@ -16,3 +16,8 @@
   height: 250px;
   float: right;
 } */
+
+#principal {
+  width: 920px;
+  border: 5px solid red;
+}
