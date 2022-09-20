@@ -9,7 +9,7 @@
 
 <ol>
 <li>
- <h3>O arquivo "Anotações possui apenas anotações basicas</h3>
+ <h3>O arquivo "Anotações" possui apenas anotações basicas</h3>
 </li>
 
 <li>
