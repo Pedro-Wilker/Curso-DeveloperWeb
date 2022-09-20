@@ -4,3 +4,32 @@ tags são a formação de uma caixa
 border é a borda da caixa
 Padding é o espaçamento interno de caixa
 Margin é o espaçamento externo da caixa
+
+
+-Elementos block: 
+
+ex: h1, p, table...
+
+possui uma largura que ocupa todo espaçamento da tela, ele fica um abaixo do outro
+
+-Elementos Inline: 
+ex: a, span, img...
+
+Toda vez que utilizar um elemento inline ele fica um em frente ao outro de acordo com o tamanho do conteudo 
+
+-Elementos Inline-block: 
+
+ex: display: inline-block;
+
+Aqui é um hibrido entre os dois elementos. 
+
+-Posicionamento estatico e relativo
+
+Ex: static, relative, absolute e fixed;
+
+static: é o Posicionamento padrão aplicado nos elementos.
+
+relative: Para utilizar o posicionamento relativo vc precisa utilizar propriedades de deslocamento para movimentar o objeto
+são eles: top, right, bottom e left; 
+
+Ou seja position relative é utilizado para movimentar um determinado objeto.

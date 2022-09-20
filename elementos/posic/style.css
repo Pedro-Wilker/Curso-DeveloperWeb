@@ -1,0 +1,25 @@
+body {
+  background: #007fc7;
+}
+
+.container {
+  background: #fff;
+  width: 800px;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px auto;
+}
+
+h1 {
+}
+
+p {
+  width: 300px;
+}
+
+.relative {
+  border: 1px solid red;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
