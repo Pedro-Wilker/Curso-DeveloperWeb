@@ -33,3 +33,37 @@ relative: Para utilizar o posicionamento relativo vc precisa utilizar propriedad
 são eles: top, right, bottom e left; 
 
 Ou seja position relative é utilizado para movimentar um determinado objeto.
+
+absolute : O elemento que é defido com uma posição absoluta sai do fluxo normal(sua posição atual) e não afeta a posição dos outros elementos.
+Aqui a posição do elemento é baseado no container que tiver uma posição diferente da static(padrão).
+
+Fixo : O elemento se tornara fixo em relação a janela do navegador ou viewport, ou seja ficar fixo por toda a pagina.
+
+-Sobrepondo elementos.
+
+z-index é um seletor de camadas do css, habilitando o programador a escolher a camada de cada elemento com de 0 a N. 
+Se o numero de dois elementos do z-index for igual a ordem que vai aparecer vai ser padrão.
+
+z-index é um contexto de empilhamento. 
+
+-Como formatar links 
+
+Os links possuem estados, são eles:
+
+1- Links não visitados
+a:link{
+   color: #b9c941; 
+}
+2- Links visitados
+a:visited{
+    color: #c0c0c0;
+}
+3- Mouse por cima do link
+a:hover{
+    color: #6d790f
+}
+4- links ativos, quando voce clica no link{
+a:active{
+    color: #e4f371;
+}
+
