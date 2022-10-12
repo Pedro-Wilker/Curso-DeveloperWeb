@@ -67,3 +67,22 @@ a:active{
     color: #e4f371;
 }
 
+////-////-////-////-////-////-////-////-////-////-////-
+
+-Iniciando JavaScript : 
+
+Incluindo codigos JavaScript dentro do HTML5: 
+
+Pode ser utilizado no inline na propria pagina HTML utilizando 
+a tag <script> </script>, assim voce ira introduzir o javascript de uma forma interna
+
+Para aplicar o JavaScript de forma externa, utilizamos a mesma tag 
+<script src="script.js"> </script>, mas dessa vez utilizamos um arquivo .js. 
+
+é possivel criar blocos <script> quantas vezes forem necessarias.
+
+A diferença entre escrever a tag <script> na tag head ao inves da tag body é que o <script> será rodado antes 
+da tag body, isso pode causa um erro de precedecedência de interpretação. 
+
+
+
