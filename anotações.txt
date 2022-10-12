@@ -84,5 +84,10 @@ Para aplicar o JavaScript de forma externa, utilizamos a mesma tag
 A diferença entre escrever a tag <script> na tag head ao inves da tag body é que o <script> será rodado antes 
 da tag body, isso pode causa um erro de precedecedência de interpretação. 
 
+-Precedência de execução. 
 
+Nós utilizamos o javascript para interagir com os elementes html, esses elementos html são renderizados com base em uma arvoré de elementos 
+que é chamado de DOM(Document Object Model) 
 
+É possivel tirar este erro do precedência colocando a tag script no final do body, dessa forma o script só vai rodar após toda a pagina html 
+executada. 
