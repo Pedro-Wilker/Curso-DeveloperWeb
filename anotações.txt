@@ -91,3 +91,34 @@ que é chamado de DOM(Document Object Model)
 
 É possivel tirar este erro do precedência colocando a tag script no final do body, dessa forma o script só vai rodar após toda a pagina html 
 executada. 
+
+-Variaveis 
+
+Variaveis são espaços em memoria que possibilita armazenar informações de forma temporaria. 
+ => Em JavaScript temos:
+
+ Quando estamos declarando uma variavel nós utilizamos a instrução var
+-Isso pq a instrução var representa a declaração de uma variavel de uma forma mais rapida
+
+Case sensitive= Diferencia os caracteres maiusculos ou minusculos.
+
+=> Concatenação 
+    -Utilizamos o operador + para adicionar uma variavel dentro de um texto; 
+    -No JavaScript temos que tumar cuidado ao usar + pq o interpretador pode entender que é uma soma e não uma concatenação.
+    -Se voce utiliza uma variavel number dentro de um texto o javascript vai utilizar o valor string do numero. 
+
+=> Atribuição de valores dinamicos prompt
+    -Isso vai abrir um dialog para entradas de dados
+
+O interpretador do javascript vai utilizar formas para distiguir variaveis, voce pode notar isso no console.log
+    ex: se voce utilizar as duas linhas de codigo abaixo 
+    var idade= 45;
+    document.write("Olá Pedro, essa é a sua idade "+idade+"?");
+    console.log(50);
+    console.log(idade);
+    No console 45 e 50 vão aparecer com cores diferentes, mostrando assim a diferenca de variaveis.
+
+=> Valores NULL e UNDEFINED 
+    UNDEFINED é dando quando acontece a declaração de uma variavel mas não é atribuido um valor a ela no momento, podendo ser atribuido algum tempo depois 
+    NULL é quando é declarado um valor para aquela variavel mas seu valor é nulo ou seja não existe nada ali. 
+
