@@ -122,3 +122,12 @@ O interpretador do javascript vai utilizar formas para distiguir variaveis, voce
     UNDEFINED é dando quando acontece a declaração de uma variavel mas não é atribuido um valor a ela no momento, podendo ser atribuido algum tempo depois 
     NULL é quando é declarado um valor para aquela variavel mas seu valor é nulo ou seja não existe nada ali. 
 
+=> Operadores de comparação 
+    -Igual ou == 
+    -Idêntico ou ===
+    -Diferente ou !=
+    -Não Idêntico ou !==
+    -Menor ou <
+    -Maior ou >
+    -Menor igual ou <=
+    -Maior igual ou >=
