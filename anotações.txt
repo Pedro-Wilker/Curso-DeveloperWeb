@@ -131,3 +131,9 @@ O interpretador do javascript vai utilizar formas para distiguir variaveis, voce
     -Maior ou >
     -Menor igual ou <=
     -Maior igual ou >=
+
+    Nos casos de comparação de indentico(===) ou não identico(!==) é preciso levar em conta o tipo de variavel
+
+=> Casting de tipos 
+    -> Conversão de um tipo de dado para outro tipo de dado 
+    
