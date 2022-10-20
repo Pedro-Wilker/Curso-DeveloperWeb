@@ -138,11 +138,13 @@ O interpretador do javascript vai utilizar formas para distiguir variaveis, voce
     -> Conversão de um tipo de dado para outro tipo de dado 
 
 => Operadores Logicos 
-    -> Além dos operadores logicos de operações: +,-, * e /
+    -> Além dos aritmeticos logicos de operações: +,-, * e /
     -> Temos os operadores logicos &&, || e !
     - && ou e, só passa se duas condições forem verdade if(2==2 && 1<=2){verdadeiro}
     - || - ou, passa se uma expressão for verdadeira if(2==3 || "a"=="b"){verdadeiro}
     - ! ou negação, utilizado para negar uma expressão, utilizado para inverter o resultado das expressões, if(!("a"=="b")){vedadeiro}
+    - % modulo- Resto existente de uma operação de divisão. 
+
 
 =>Operador ternario ou resultado  
     - var resultado = nota >= media && faltas <= faltas_maximas ? "Aprovado" : "Reprovado";
@@ -155,4 +157,18 @@ O interpretador do javascript vai utilizar formas para distiguir variaveis, voce
 
         case 2:
         break;
+
+        default: 
+
+        break;
     }
+
+=> Operador aritmeticos na atribuição de valores
+    -> Digamos que vc tem uma variavel x e queira atribuir um valor a ela, o mais logico seria x = x + 1; 
+    - mas utilizando += voce atribui um valor a variavel sem que repita seu nome, ex: x=10; x += 5; console.log(x)= 15;
+    - Para os mesmo podemos fazer o mesmo para a subtração, multiplicação, divisão e para a operação de mod. 
+
+=> Funções 
+    -Encapsular um bloco de códigos com um objetivo definido 
+    -
+    -
