@@ -136,4 +136,23 @@ O interpretador do javascript vai utilizar formas para distiguir variaveis, voce
 
 => Casting de tipos 
     -> Conversão de um tipo de dado para outro tipo de dado 
-    
+
+=> Operadores Logicos 
+    -> Além dos operadores logicos de operações: +,-, * e /
+    -> Temos os operadores logicos &&, || e !
+    - && ou e, só passa se duas condições forem verdade if(2==2 && 1<=2){verdadeiro}
+    - || - ou, passa se uma expressão for verdadeira if(2==3 || "a"=="b"){verdadeiro}
+    - ! ou negação, utilizado para negar uma expressão, utilizado para inverter o resultado das expressões, if(!("a"=="b")){vedadeiro}
+
+=>Operador ternario ou resultado  
+    - var resultado = nota >= media && faltas <= faltas_maximas ? "Aprovado" : "Reprovado";
+    - document.write(resultado);
+
+=> Switch 
+    -> switch(opcao){
+        case 1:
+        break;
+
+        case 2:
+        break;
+    }
