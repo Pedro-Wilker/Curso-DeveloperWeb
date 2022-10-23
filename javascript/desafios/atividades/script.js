@@ -74,3 +74,27 @@ if (mCorporal >= 0 && mCorporal < 16) {
     document.write("Information invalid");
     break;
 } */
+
+/* Declarando uma funcao */
+
+/* Funcao de execucao ou funcao void */
+
+/* Funcao de retorno
+  as funcoes quando possuem retorno elas podedm ser associadas com a variavel que foi criada nela. 
+  */
+
+function calcularAreasTerreno(largura, comprimento) {
+  var area = largura * comprimento;
+
+  console.log("O terreno possui: " + area);
+}
+/* Sempre que ela(funcao do tipo void) for chamada ela vai dar esse retonodo console.log no site */
+calcularAreasTerreno(15, 25);
+
+function soma(a, b) {
+  b = b === undefined ? 0 : b;
+  return a + b;
+}
+
+console.log(soma(7, 7));
+console.log(soma(7));
