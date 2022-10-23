@@ -170,5 +170,101 @@ O interpretador do javascript vai utilizar formas para distiguir variaveis, voce
 
 => Funções 
     -Encapsular um bloco de códigos com um objetivo definido 
-    -
-    -
+    -Declaracao de funcoes: function calcularAreaTerreno(largura, comprimento){
+        var area= largura * comprimento;
+        return area;
+    }
+    => Flexibilidade de parametros:
+        -Caso vc passe mais parametros que o necessario o JS desconsidera os parametros 
+        -Caso vc não passe mais parametros que o necessario o JS considera os parametros não passados como undefined 
+        -Caso não passe nenhum parametro o resultado é undefined  
+
+=> Escopo de variaveis: 
+    ->Global:
+     -Sofre hosting
+        -> var serie; 
+            ...  
+    ->Funcao:
+     -Tem acesso a variaveis declaradas no escopo global
+     -Funcoes criadas dentro de funcao não sofre hosting, ou seja as funcoes declaradas dentro dele não podem ser acessadas foras dele. 
+        -> function x(){
+            document.write(serie)
+        }
+
+        x();
+    ->Bloco:
+     -Tem acesso a variaveis declaradas no escopo global
+      -Sofre hosting
+        -> if(true){
+            document.write(serie )
+        } 
+
+=>Funcoes anonimas e a tecnica de wrapper 
+    => Conceito de wrapper: o js tem uma funcao bem interessante que tem a capacidade de associar a uma variavel não apenas valores mas tbm funcoes: 
+        ->var exibirSaudacao = function(nome){
+            document.write('Olá '+ nome);
+        }
+    
+        exibirSaudacao('Jorge');
+    =>Isso acontece pq utilizamos no js as funcoes de callback 
+
+=>Funcoes de callback:
+    - function exibirArtigo(id, callbackSucesso, callbackErro){
+       //logica: recuperar o id via requisicao http:
+            ...
+        //logica de funcoes de callback
+        if(true){
+            callbackSucesso('sucesso!!');
+        } else {
+            callbackErro('Erro!');
+        }
+    }
+    //Dessa forma seria dificil de organizar e ai que entra a logica de wrapper
+    exibirArtigo(1, function(){}, function(){}, function(){})
+
+    var callbackSucesso = function(){
+
+    };
+    var callbackErro = function(){
+
+    };
+
+    exibirArtigo(1, callbackSucesso, callbackErro);
+
+=> Funcoes nativas para manipulacao de strings: 
+    -> Cada caraceter de uma string ocupa um posicao sequencia especifica iniciada em 0 
+
+    ou seja Pedro fica = (0,P) (1,e) (2,d) (3,r) (4,o)
+
+    documentacao w3schools.com;
+    -O js transforma strings em objetos, por isso é possivel mexer com as mesmas; 
+        //Propriedade chamada length 
+            ->Esse atributo retorna a quantidaed de caracteres de uma string 
+                document.write("Jorge Sant Ana".length) - Isso vai retornar o tamanho dessa string 
+                    -Os espaços tambem são contados
+        //Propriedade charAt 
+            ->Retorna um caraceter com base no indice que o mesmo se encontra; 
+                document.write("Jorge Sant Ana".charAt(7)) - Isso vai retornar o caracter contido no indice 7
+        //Propriedades indexOf()
+            ->Retorna a posicao de uma caraceter relativa a primeira ocorrencia daquela caracter 
+                var nome = "Jorge Sant Ana";
+
+                document.write(nome.indexOf('g')) -> Isso vai retornar o indice 3 pq foi onde apareceu pela primeira vez 
+                =>caso nao tenha um caraceter fornecido o metodo retorna -1 
+        //Propriedade replace
+            ->Muda caraceteres 
+                var nome = "Jorge Sant Ana";
+
+                document.write(nome.replace('Sant Ana', 'Queiroz')) -> Isso vai substituir Sant Ana por Queiroz 
+        //Propriedade substr()
+            ->Recorta uma parte da String 
+                var nome = "Pedro Wilker";
+
+                document.write(nome.substr(0,6)) - isso vai retornar a 6 caracteres depois do indice zero ou seja = "Pedro W"
+        //Propriedades toLowerCase 
+            ->Deixa a string em minusculas
+        //Propriedaded toUpperCase 
+            ->Deixa a string em maiusculos   
+        //Propriedade trim
+            ->Remove os espacos entre strings e variavelos em um texto
+            
