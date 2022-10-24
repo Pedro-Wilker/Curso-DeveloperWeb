@@ -69,7 +69,28 @@ a:active{
 
 ////-////-////-////-////-////-////-////-////-////-////-
 
--Iniciando JavaScript : 
+->Iniciando bootstrap e css responsivo 
+
+->Layouts fluidos 
+    ->As medidas são definidas em % 
+        ->Fluindo e se adaptando aos tamanos da tela de acordo com as mesmas 
+        ->Se um layout tem 4 colunos em 1 aparelho, em todos os outros ele vai apresentar a mesma quantidade de colunas na tela 
+        sem adaptação para cada dispositivo. 
+
+->Layouts responsivo
+        ->Mobile first-> Crie primeiro o layout para o mobile e depois va tornando ele reponsivo
+        ->O design responsivo se adapta a cada dispositivo, assim buscando a melhor forma de apresentar a aplicação em cada dispositivo 
+        buscando uma melhor forma de adaptação para o espaço disponivel 
+    =>Bootstrap 
+        ->Uma framework para construir sites reponsivos 
+        
+
+
+
+
+////-////-////-////-////-////-////-////-////-////-////-
+
+->Iniciando JavaScript : 
 
 Incluindo codigos JavaScript dentro do HTML5: 
 
